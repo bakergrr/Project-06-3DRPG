@@ -113,6 +113,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1183777854241480972}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aaf30f88289e95c42b5cc58e8b3042cd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7525881607338513882}
   m_SourcePrefab: {fileID: 100100000, guid: aaf30f88289e95c42b5cc58e8b3042cd, type: 3}
 --- !u!1 &7039158581207437388 stripped
 GameObject:
@@ -4955,3 +4959,19 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-7525881607338513882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039158581207437388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 21b5d7128beeff2429bb318d245bb66e, type: 2}

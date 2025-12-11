@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b3b9b139f9578114399a27056fc421a6,
         type: 3}
       propertyPath: m_Name
-      value: breif case
+      value: Briefcase
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b3b9b139f9578114399a27056fc421a6,
         type: 3}
@@ -113,6 +113,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6254011958333384032}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b3b9b139f9578114399a27056fc421a6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6035496196658959183}
   m_SourcePrefab: {fileID: 100100000, guid: b3b9b139f9578114399a27056fc421a6, type: 3}
 --- !u!1 &6565418624411602325 stripped
 GameObject:
@@ -4955,3 +4959,19 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &6035496196658959183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6565418624411602325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 21b5d7128beeff2429bb318d245bb66e, type: 2}
