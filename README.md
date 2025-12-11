@@ -14,6 +14,7 @@
  - When an enemy walks into or out of light, the red light that shows their vision radius gradually expands or contracts instead of snapping to the new vision radius.
  - To make the transition to the beginning of the level slightly less jarring after the player is hit by an enemy, their model will flicker briefly.
  - Text on the win screen appears in chunks over time, slowly revealing the final score.
+ - Painting models on the walls makes the level feel a liiiittle bit more like the art museum it's meant to be? Some are placed slightly askew to convey a more humorous tone.
 
 # References to resources used in the project
 Jackie and Exo Red models, Jackie texting, Exo Red walking, pointing, idle, waving animations from [mixamo.com](https://www.mixamo.com/#/)
@@ -32,3 +33,5 @@ Classy Art Deco Wallpaper and Laminate Wood Flooring Brown textures from freepbr
 
 # Created by
 Graham Baker
+
+(I know that the Exo Red model doesn't really look like a robot? I'm hoping it'll pass as something closer to a cyborg or one of those uncanny-valley robot faces, but this was the closest thing that I could find to a robot on Mixamo.)
